@@ -1,0 +1,23 @@
+body
+{
+    background-color: aqua;
+}
+.red-text {
+    color: red;
+}
+
+ #green-text {
+    color: green;
+}    
+p[data-color="blue"] {
+    color: blue;
+}
+div p {
+    color: orange;
+}
+div > p {
+    color: purple;
+}
+div.nested p {
+    color: teal;
+}
